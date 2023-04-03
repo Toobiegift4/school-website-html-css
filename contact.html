@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-center">
+            <h4>pipet <span class="underline">University</span></h4>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    
+        </div>
+    </nav>
+    <main class="page">
+        <div class="info-container">
+            <section>
+                <article>
+                    <form action="student-enquiry.php" method="post" class="form contact-form">
+                        <h2>contact us</h2>
+                        <article class="contact-row">
+                            <div class="form-row">
+                                <!-- <label for="f_name" class="form-label">first name</label> -->
+                                <input type="text" name="First_name" class="form-input contact-input" placeholder="first name">
+                            </div>
+                            <div class="form-row">
+                                <!-- <label for="l_name" class="form-label">last name</label> -->
+                                <input type="text" name="Last_name" class="form-input contact-input" placeholder="last name">
+                            </div>
+                        </article>
+                        <div class="form-row">
+                            <!-- <label for="email" class="form-label">email</label> -->
+                            <input type="email" name="Email" class="form-input contact-input" placeholder="email">
+                        </div>
+                        <div class="form-row">
+                            <!-- <label for="comments" class="form-label">message</label> -->
+                            <textarea name="Message" class="form-input contact-input" placeholder="questions or comments"></textarea>
+                        </div>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+            <p>&copy; CopyRight <span class="developer">Built by Gifty Abraham-Foley</span></p>
+        </footer>
+</body>
+
+</html>
